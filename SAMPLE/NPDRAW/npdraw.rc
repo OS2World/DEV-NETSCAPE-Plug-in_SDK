@@ -1,0 +1,11 @@
+#include "npapi.h"
+
+RCDATA NP_INFO_ProductVersion { 1,0,0,1
+}
+
+RCDATA NP_INFO_MIMEType       {"text/plain\0"}
+
+RCDATA NP_INFO_FileExtents    {"lst\0"}
+
+RCDATA NP_INFO_FileOpenName   {"OS/2 Streaming Draw Plugin\0"}
+

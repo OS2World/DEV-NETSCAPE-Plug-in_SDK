@@ -1,0 +1,11 @@
+#include "npapi.h"
+
+RCDATA NP_INFO_ProductVersion { 1,0,0,1
+}
+
+RCDATA NP_INFO_MIMEType       {"www/unknown\0"}
+
+RCDATA NP_INFO_FileExtents    {"smp\0"}
+
+RCDATA NP_INFO_FileOpenName   {"Shell Sample Plugin\0"}
+

@@ -1,0 +1,24 @@
+#include "npapi.h"
+
+RCDATA NP_INFO_ProductVersion { 1,0,0,1
+}
+
+RCDATA NP_INFO_MIMEType       {"audio/x-wav\0"}
+
+RCDATA NP_INFO_FileExtents    {"wav\0"}
+
+RCDATA NP_INFO_FileOpenName   {"OS/2 Audio Plugin\0"}
+
+#include <icconst.h>
+#include "audio.h"
+
+STRINGTABLE PRELOAD
+BEGIN
+  VOLUPID                         , "5% louder"
+  VOLDNID                         , "5% quieter"
+  PLAYSTOPID                      , "Play/Stop"
+END
+
+BITMAP PLAYBITMAPID       PLAY.BMP
+BITMAP STOPBITMAPID       STOP.BMP
+
